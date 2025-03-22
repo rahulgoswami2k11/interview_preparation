@@ -1,0 +1,32 @@
+Snake n Ladder game
+
+Cell 	{
+	boolean isEnd;
+	Cell up;
+	Cell down;
+}
+
+Map<Integer, Cell> cellMapping;
+
+Map<Player, Cell> playerCurrentCellMapping;
+
+DiceRollingStrategy
+	int rollDice(int lowerBound, int upperBound)
+
+RandomDiceRollingStrategy implements DiceRollingStrategy
+
+Player
+	String Name
+	Cell cell
+
+Game {
+
+	DiceRollingStrategy diceRollingStrategy
+	boolean isGameEnded()
+	Player findWinner()
+
+	void makeMove(Player player) {
+
+	}
+
+}

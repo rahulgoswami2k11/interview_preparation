@@ -1,0 +1,15 @@
+1. Rate limiting with Redis
+    => Redis is single threaded
+    => How to run multiple redis commands as single transaction
+        => Using lua scripts
+
+2. Spring security
+    => Which annotations are used for authentication and authorization
+
+3. DB Indexes
+    => What are the type of db indexes
+
+4. Https / SSL / TLS
+    => How https works
+
+5. Structure of EXPLAIN command
